@@ -1,0 +1,12 @@
+.content{
+    margin-top: 40%;
+    margin-bottom: 10px;
+    background-color: darkgray;
+    padding: 20px;
+    width: 100%;
+}
+
+#Password{
+    width: 100%;
+    line-height: 30px;
+}
