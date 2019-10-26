@@ -69,9 +69,9 @@ function createpassword() {
 function copypassword() {
     var text = document.getElementById("Password");
     text.select();
-    document.execCommand("Copy");
-    alert("Password copied to clipboard!")
-    var clipboard = document.getElementById("clipboard").value = text;
+    document.execCommand("copy");
+    alert("Password" + text.value + "copied to clipboard!")
+    var clipboard = document.getElementById("password").value = text;
 }
 
 
